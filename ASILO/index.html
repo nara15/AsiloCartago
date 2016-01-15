@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Asilo de la Vejez de Cartago | Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <!--start slider  -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery-ui.min.js"></script> 
+        <!--end slider -->
+        <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body ng-app="asiloWebApp">
+
+
+        <div class="header_bg">
+        <div class="wrap">
+            <div class="header">
+                <div class="logo">
+                    <a href="#/"><img src="images/logo_asilo.png" alt="" /></a>
+                </div>      
+                <!-- start h_menu4 -->
+                <div class="h_menu4">
+                    <a class="toggleMenu" href="">Menú</a>
+                    <ul class="nav">
+                        <li class="active"><a class="active" href="#/">Principal</a></li>
+                        <li><a href="portfolio.html" class="root">Conózcanos</a>
+                            <ul>
+                                <li><a href="#/misionvision">Misión y Visión</a></li>
+                                <li><a href="#/historia">Historia</a></li>
+                                <li><a href="#/administracion">Administración</a></li>
+                                <li><a href="#/organigrama">Organigrama</a></li>
+                                <li><a href="#/marcolegal">Marco Legal</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="service.html">¿Qué hacemos?</a>
+                            <ul>
+                                <li><a href="portfolio.html">Cuido del adulto mayor</a></li>
+                                <li><a href="service.html">Hospital</a></li>
+                                <li><a href="contact.html">Servicios</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="staff.html">¿Cómo contribuir?</a>
+                            <ul>
+                                <li><a href="">Donaciones</a></li>
+                                <li><a href="">Voluntariado</a></li>
+                                <li><a href="">Trabajo Comunal</a></li>
+                                <li><a href="">Reciclaje</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Galería</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                    
+                    <script type="text/javascript" src="js/nav.js"></script>
+                                    
+                    </div>
+                        <!-- end h_menu4 -->
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!--/header -->
+
+
+        <div ng-view></div>
+
+
+
+        <!-- Vendor: Angular, followed by our custom Javascripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+        <!-- Our Website Javascripts -->
+        <script src="app/main.js"></script>
+
+    </body>
+</html>

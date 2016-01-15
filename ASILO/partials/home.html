@@ -1,0 +1,50 @@
+<div>  
+    <div class="banner-slider">
+            <div class="callbacks_container">
+                <ul class="rslides" id="slider4">
+                    <li>
+                        <div class="banner-img">
+                            <img src="images/asilo_slider1.jpg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="banner-info">
+                            <h3>i want to feel What you wanted!</h3>
+                            <p>A super clean and easy to use Modern templates Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner-img">
+                            <img src="images/asilo_slider2.jpg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="banner-info">
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>Pellentesque non neque egestas libero. Nam sed porta est. Vestibulum id.</p>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--banner Slider starts Here-->
+        <script src="js/responsiveslides.min.js"></script>
+             <script>
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                  // Slideshow 4
+                  $("#slider4").responsiveSlides({
+                    auto: true,
+                    pager:false,
+                    nav: true,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                      $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                      $('.events').append("<li>after event fired.</li>");
+                    }
+                  });
+            
+                });
+              </script>
+        <!--/slider -->
+</div>
