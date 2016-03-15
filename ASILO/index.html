@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Asilo de la Vejez de Cartago | Home</title>
+        <link href="css-1/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css-1/style.css" rel="stylesheet" type="text/css" media="all" />  
+        <!--start slider  -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery-ui.min.js"></script> 
+        <!--end slider -->
+    </head>
+
+    <body ng-app="asiloWebApp">
+
+       
+        <div ng-include='"plantillas/header.html"'></div>
+        <div ng-view></div>
+        <div ng-include='"plantillas/footer.html"'></div>
+
+
+        <!-- Vendor: Angular, seguido por nuestros Javascripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+        <!-- Nuestros Javascripts de la página web -->
+        <script src="app/main.js"></script>
+
+    </body>
+</html>

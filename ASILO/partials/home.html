@@ -1,0 +1,84 @@
+<div>  
+    <div class="banner-slider">
+            <div class="callbacks_container">
+                <ul class="rslides" id="slider4">
+                    <li>
+                        <div class="banner-img">
+                            <img src="images/asilo_slider1.jpg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="banner-info">
+                            <h3>hola</h3>
+                            <p>A super clean and easy to use Modern templates Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner-img">
+                            <img src="images/asilo_slider2.jpg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="banner-info">
+                            <h3>hola</h3>
+                            <p>Pellentesque non neque egestas libero. Nam sed porta est. Vestibulum id.</p>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--banner Slider starts Here-->
+        <script src="js/responsiveslides.min.js"></script>
+             <script>
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                  // Slideshow 4
+                  $("#slider4").responsiveSlides({
+                    auto: true,
+                    pager:false,
+                    nav: true,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                      $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                      $('.events').append("<li>after event fired.</li>");
+                    }
+                  });
+            
+                });
+              </script>
+        <!--/slider -->
+
+
+        <!-- INICIO mid_grid - Actividades -->
+        <div class="btm_grid_bg">
+        <div class="wrap">
+            <div class="btm_grid">
+                <h2>Actividades</h2>
+                <div class="span_of_3">
+                    <div class="span1_of_3">
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><img src="images/actividad_visita_abuelos.jpg" alt=""/></a>
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><h3>Visita un abuelo</h3></a>
+                        <h4 class="divider"></h4>
+                        <p>Muchos de los adultos mayores que se encuentran en el Asilo no reciben visitas, por lo que lo invitamos a acercarse a nuestra instituci&oacuten en los horarios de visita ya definidos y as&iacute hacerle compa&ntilde&iacutea a uno de nuestros abuelos.</p>
+                    </div>
+                    <div class="span1_of_3">
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><img src="images/actividad_campana_navidena.jpg" alt=""/>
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><h3 class="style">Campaña Navideña</h3></a>
+                        <h4 class="divider"></h4>
+                        <p>Esta Campa&ntildea tiene la fin que los ciudadanos de la comunidad y fuera de ella adopten un abuelo u abuela, con el fin de que en la epoca navide&ntildea los adultos
+                        mayores tengan visitas y si esta en el alcance de la personas, se les de un regalo, pero sin dejar de lado lo m&iacutes importante, que es la compa&ntildeia. Esta campa&ntildea se
+                        empezar&aacute a promocionar todos los principios de noviembre de cada a&ntildeo</p>
+                    </div>
+                    <div class="span1_of_3">
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><img src="images/actividad_obras_teatro.jpg" alt=""/>
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><h3>Obras de Teatro </h3></a>
+                        <h4 class="divider"></h4>
+                        <p>Las obras de teatro son actividades muy comunes en el Asilo de la Vejez de Cartago, muchos de ellas se realizan con el fin de ayudar ecom&oacutemicamente al Asilo, en las cuales se cobra entrada y se venden comidas. En este mismo sitio se anunciar&aacute las fechas en las que se estaran realizando las obras, con
+                        su respectivo horario, precio, entre otras cosas</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
