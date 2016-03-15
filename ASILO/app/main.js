@@ -9,10 +9,12 @@ app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
     .when("/", {
-        templateUrl: "partials/home.html"
+        templateUrl: "partials/home.html",
+        controller: "HomeController"
     })
     .when("/misionvision", {
-        templateUrl: "partials/misionvision.html"
+        templateUrl: "partials/misionvision.html",
+        controller: "HomeController"
     })
     .when("/historia", {
         templateUrl: "partials/historia_asilo.html"
@@ -47,4 +49,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     .otherwise("/404", {
         templateUrl: "partials/404.html"
     });
+}]);
+
+
+app.controller('HomeController', ['$scope', function($scope) {
+    $scope.direccion = 'css-1/style.css';
 }]);
