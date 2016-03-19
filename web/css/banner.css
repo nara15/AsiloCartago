@@ -1,0 +1,172 @@
+#banner-figures .header ul li a{
+	transition:.5s ease-in-out;
+	-webkit-transition:.5s ease-in-out;
+	-moz-transition:.5s ease-in-out;
+	-o-transition:.5s ease-in-out;
+	-ms-transition:.5s ease-in-out;
+}
+#banner-figures .banner1{
+	background:url(../images/jardin1.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:300px;
+}
+#banner-figures .header{
+	padding:5em 0 15em;
+    text-align: center;
+}
+
+#banner-figures .header-left ul li{
+	display:inline-block;
+	margin-right:5em;
+	font-size:14px;
+	color:#fff;
+}
+#banner-figures .header-left ul li span{
+	left:-.5em;
+	color:#F3AD45;
+}
+#banner-figures .header-left ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+#banner-figures .header-left{
+	float: left;
+	padding:.7em 0 0 17em;
+}
+
+#banner-figures .logo {
+    text-align: center;
+}
+#banner-figures .logo h1 a{
+	font-size:3em;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+}
+#banner-figures .logo h1 a span{
+	display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #E9E9E9;
+}
+#banner-figures .container {
+    margin: 0 auto;
+    -moz-transition: all 0.3s ease 0.6s;
+    -o-transition: all 0.3s ease 0.6s;
+    -webkit-transition: all 0.3s ease;
+    -webkit-transition-delay: 0.6s;
+    -webkit-transition: all 0.3s ease 0.6s;
+    transition: all 0.3s ease 0.6s;
+    z-index: 10;
+    position: relative;
+	-o-transition-delay: 0.1s;
+	-moz-transition-delay: 0.6s;
+	-ms-transition-delay: 0.6s;
+}
+#banner-figures .header1 {
+	padding:1em 0 4em !important;
+}
+
+
+/*-----start-responsive-design------*/
+@media (max-width:1080px){
+	#banner-figures .header-left {
+		padding: .7em 0 0 10em;
+	}
+	#banner-figures .logo h1 a {
+		font-size: 2.5em;
+	}
+}
+@media (max-width:991px){
+	#banner-figures .header-left {
+		padding: .7em 0 0 1em;
+	}
+	#banner-figures .header-left ul li {
+		margin-right: 4em;
+	}
+}
+@media (max-width:800px){
+	#banner-figures .logo h1 a {
+		font-size: 2.2em;
+	}
+}
+@media (max-width:768px){
+	#banner-figures .logo h1 a {
+		font-size: 2em;
+	
+}
+@media (max-width:736px){
+	#banner-figures .header-left ul li {
+		margin-right: 2em;
+	}
+	#banner-figures .header {
+		padding: 3em 0 6em;
+	}
+}
+@media (max-width:640px){
+	#banner-figures .header-left ul li {
+		margin-right: 1em;
+	}
+	#banner-figures .logo h1 a {
+		font-size: 1.6em;
+	}
+	#banner-figures .logo h1 a span {
+		font-size: 11px;
+	}
+	#banner-figures .header {
+		padding: 2em 0 4em;
+	}
+}
+@media (max-width:600px){
+	#banner-figures .header-left ul li {
+		font-size: 13px;
+	}
+}
+@media (max-width:568px){
+	#banner-figures .header-left {
+		padding: 0;
+		float: none;
+		text-align: center;
+	}
+}
+@media (max-width:480px){
+	#banner-figures .header-left ul li {
+		margin-right: 1.5em;
+		margin-bottom: 1em;
+		font-size: 14px;
+	}	
+	#banner-figures .logo h1 a {
+		font-size: 1.2em;
+	}
+	#banner-figures .header {
+		padding: 1em 0 4em;
+	}
+	#banner-figures .header1 {
+		padding: 1em 0 2em !important;
+	}
+	#banner-figures .about {
+		padding: 2em 0;
+	}
+}
+@media (max-width: 414px){
+	#banner-figures .banner1 {
+		background: url(../images/1.png) no-repeat -100px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+		min-height: 310px;
+	}
+}
+@media (max-width:320px){
+	#banner-figures .header-left ul li {
+		font-size: 12px;
+		margin-bottom: .5em;
+	}
+}

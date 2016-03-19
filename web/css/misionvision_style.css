@@ -1,0 +1,146 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+  font-family: 'Arimo-Regular';
+   font-size: 100%;
+   background:#FAEBD7; 
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+@font-face {
+    font-family: 'Playball-Regular';
+    src:url(../fonts/Playball-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Arimo-Regular';
+    src:url(../fonts/Arimo-Regular.ttf) format('truetype');
+}
+
+
+/*--services start here--*/
+.services-main {
+	padding: 3em 0em 3em 0em;
+	background: url(../images/misionvision_bg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.service-top{
+  text-align: center;
+  padding: 0em 0em 3em 0em;
+}
+.service-top h3 {
+  font-size: 2.6em;
+  font-weight: 400;
+  color: #ff3a71;
+  margin: 0em 0em 0.2em 0em;
+   font-family: 'Playball-Regular';
+}
+.service-top p {
+  font-size: 0.95em;
+  font-weight: 400;
+  color: #949494;
+  line-height: 1.6em;
+  width: 60%;
+  margin: 0 auto;
+}
+.services-right
+{
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.services-right h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2c2c2c;
+  font-family: 'Playball-Regular';
+  margin: 0em 0em 0.3em 0em;
+}
+.services-right h4 a{
+  color: #2c2c2c;
+}
+.services-right h4 a:hover{
+	color: #ff3a71;
+	text-decoration:none;
+}
+.services-right p {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.8em;
+  
+  
+}
+
+/*--media quries start here--*/
+@media(max-width:1024px){
+	.services-right h4 {
+	  font-size: 1.5em;
+	  margin: 0em 0em 0em 0em;
+	}
+	.services-right p {
+	  font-size: 0.9em;
+	}
+}
+@media(max-width:768px){
+	.services-main {
+	  padding: 1.5em 0em 2em 0em;
+	}
+	.service-left{
+	  width: 50%;
+	  margin: 0em auto 1em;
+	}
+	.service-top {
+	  padding: 0em 0em 2em 0em;
+	}
+	.service-top p {
+	  width: 70%;
+	}
+}
+@media(max-width:480px){
+
+	.service-top h3 {
+	  font-size: 1.8em;
+	}
+	.service-top p {
+	  width: 100%;
+	  font-size: 0.85em;
+	}
+}
+@media(max-width:320px){
+	.service-top p {
+	  font-size: 0.8em;
+	}
+	.service-left {
+	  width: 100%;
+	}
+	.services-right h4 {
+	  font-size: 1.3em;
+	}
+	.services-right p {
+	  font-size: 0.8em;
+	  line-height: 1.6em;
+	}
+	.service-left {
+	  padding: 0px;
+	}
+	.services-right {
+	  padding: 0px;
+	}
+	.services-main {
+	  padding: 1.5em 0em 0.8em 0em;
+	}
+}
