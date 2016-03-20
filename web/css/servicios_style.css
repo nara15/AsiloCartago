@@ -1,0 +1,106 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+  font-family: 'Arimo-Regular';
+   font-size: 100%;
+   background:#fff; 
+}
+a 
+{
+  text-decoration: none;
+}
+a:hover 
+{
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+@font-face {
+    font-family: 'Playball-Regular';
+    src:url(../fonts/Playball-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Arimo-Regular';
+    src:url(../fonts/Arimo-Regular.ttf) format('truetype');
+}
+
+
+#services-info 
+{
+  padding: 5em 0em 3em 0em;
+}
+.service-details 
+{
+  text-align: center;
+}
+.service-details h4 
+{
+  font-size: 1.8em;
+  font-weight: 400;
+  color: #ff3a71;
+  margin: 0.2em 0em 0.2em 0em;
+   font-family: 'Playball-Regular';
+}
+.service-details h4 a
+{
+	 color: #ff3a71;
+}
+.service-details h4 a:hover
+{
+	 color: #2c2c2c;
+	 text-decoration: none;
+}
+.service-details p 
+{
+  font-size: 0.95em;
+  font-weight: 400;
+  color: #686869;
+  line-height: 1.6em;
+}
+
+
+
+/*--media quries start here--*/
+@media(max-width:1024px){
+  .service-details p 
+  {
+    font-size: 0.9em;
+  }
+}
+@media(max-width:768px){
+  .service-info-grids
+  {
+    float: left;
+    width: 33%;
+  }
+  #services-info 
+  {
+    padding: 2em 0em 2em 0em;
+  }
+}
+@media(max-width:480px){
+  .service-info-grids 
+  {
+    float: none;
+    width: 100%;
+    margin: 0em 0em 1.6em 0em;
+  }
+  #services-info 
+  {
+    padding: 2em 0em 1em 0em;
+  }
+}
+@media(max-width:320px){
+  .service-info-grids 
+  {
+    padding: 0px;
+  }
+  .service-details p 
+  {
+    font-size: 0.8em;
+  }
+}
